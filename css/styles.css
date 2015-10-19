@@ -1,7 +1,11 @@
 body {
 	background-color: #c7c7c7;
 }
-
+/*BOOTSTRAP OVERRIDES*/
+.thumbnail a:hover {
+	text-decoration: none;
+}
+/***********************/
 .blog-wrapper {
 	overflow: hidden;
 	max-width: 900px;
@@ -40,7 +44,7 @@ body {
 
 #main-container {
 	overflow: hidden;
-	width: 70%;
+	width: 100%;
 	float: left;
 }
 
@@ -66,6 +70,8 @@ body {
 .blog-body-container .blog-item .blog-body {
 	padding: 10px;
 	font: 18px 'Raleway', serif;
+	height: 200px;
+	overflow: hidden;
 }
 
 #right-rail {
